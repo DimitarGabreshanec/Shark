@@ -1,0 +1,19 @@
+ul.acc li dl dd{
+    display: block;
+}
+
+.dd0 dt {
+    border-bottom: 0px solid #DDD !important;
+    padding: 10px 0 10px 2em !important;
+}
+.dd1 dt {
+    border-bottom: 0px solid #DDD !important;
+    padding: 10px 0 10px 4em !important;
+} 
+ul.acc li:last-child {
+    border-bottom: none !important;
+}
+ul.acc li:last-child {
+    border-bottom: none !important;
+}
+ 

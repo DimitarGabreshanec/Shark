@@ -1,0 +1,22 @@
+h1.logo {
+  width: 100%;
+  float: none;
+}
+
+#r-content.schedule_page{
+  margin-bottom: 420px;
+}
+
+.logout{
+  position: fixed;
+  bottom: 30px;
+  left: 8px;
+  right: 0;
+  margin: auto;
+  border: none;
+  background: url(../img/icon_logout2.png) no-repeat center 50%;
+  background-size: 28px;
+  padding: 3px 20px;
+  cursor: pointer;
+  z-index: 9999;
+}

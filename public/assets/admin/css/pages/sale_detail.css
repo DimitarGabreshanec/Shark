@@ -1,0 +1,128 @@
+#contents_wrap{
+    padding-top: 4%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#row_header{
+    background-color: #eee;
+    font-family: 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', 'Noto Sans JP', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif !important;
+    font-weight: bold;
+}
+
+table.normal.type3 th, table.normal.type3 td{
+    padding: 15px;
+    font-size: 14px;
+    width: 25%;
+    font-family: 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', 'Noto Sans JP', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif !important;
+} 
+
+.date-list ul li select {
+    width: 100%;
+    padding: 7px;
+    background: none !important;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+select {
+    margin: 0 10px 0 0;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.date-list ul li:first-child, .date-list ul li:last-child {
+    margin: 5px 0 0 0;
+}
+
+.date-list ul {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#prev_sale {
+    text-align: center;
+    width: 26px;
+    height: 26px;
+    display: block;
+    background: #fff;
+    /* padding: 6px 8px; */
+    line-height: 22px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    margin: 0 3px;
+    font-size: 18px;
+}
+
+select{
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', 'Noto Sans JP', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif !important;
+}
+
+.check-map { 
+    display: block;
+}
+
+.check-map a{
+    clear: both;
+    display: inline-block;
+    background: #ffff;
+    color: #F00;
+    padding: 4px 8px;
+    box-shadow: 0 3px 0 #808886;
+    position: relative;
+    cursor: pointer; 
+    border-radius: 7px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.detail{ 
+    font-size: 12.5px; 
+}
+
+.detail a{
+    color:#333;
+}
+
+#total_price{
+    font-weight:bold;
+}
+
+#sum_price{
+    font-weight:bold;
+    font-size: 15px;
+}
+
+#prev_sale{
+    cursor: pointer; 
+}
+
+#complete{
+    color:rgb(100, 49, 49); 
+}
+
+#deposite_ready{
+    color:rgb(255, 49, 49); 
+}
+
+#deposite{
+    background: #99bd77;
+    box-shadow: 0 5px 0 #ca7474;
+} 
+
+.li_sale{
+    width: 33px; 
+}

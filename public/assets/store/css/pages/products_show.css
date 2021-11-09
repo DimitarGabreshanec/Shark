@@ -1,0 +1,158 @@
+
+.imagebox img{
+    width: 100%; 
+} 
+  
+.post_li {
+    float: left;
+    width: 170px;
+    margin: 0 4% 0 0;
+} 
+
+input[type=file]{
+    display: none;
+}
+ 
+
+#fileforbutton, #fileforbutton1{
+    background: #eee;
+    color: #333; 
+    border-radius: 5px;
+    border-color: #888;
+    margin: 10px 0 0 0;
+    padding: 5px;
+} 
+ 
+.imagebox_sub ul li {
+    width: 30%; 
+    margin-right: 5% !important; 
+    margin-bottom: 5%; 
+    float: left;
+    position: relative;
+}  
+
+.imagebox_sub ul li:nth-child(3n) {
+    margin-right: 0 !important;
+}
+
+.imagebox_sub ul {
+    overflow: hidden;
+    clear: both;
+}
+
+.imagebox {
+    margin: 15px 0 0 0 !important;
+}
+
+.imagebox_sub {
+    margin: 15px 0 0 0 !important;
+} 
+
+@media only screen and (max-width: 736px){
+    .imagebox_sub ul li {
+        width: 48%; 
+        margin-right: 4% !important; 
+        margin-bottom: 4%;
+        float: left;
+        position: relative;
+    }  
+
+    .imagebox_sub ul li:nth-child(3n) {
+        margin-right: 4% !important;
+    }
+
+    .imagebox_sub ul li:nth-child(2n) {
+        margin-right: 0 !important;
+    }
+}
+
+
+     
+.modal-content > div ul li img {
+    width: 100%; 
+    height: 120px;
+} 
+
+
+.avail_time, .post_time{
+    width: 60px;
+    display: inline-block;
+}
+
+.post_time_h{
+    width: 60px;
+    display: inline-block;
+    margin-left: -36px;
+}
+
+.avail_one{
+    width: 12px;
+    display: inline-block;
+}
+.available{
+    display: inline-block;
+}
+
+.post_date{
+    display: inline-block;
+    width: 130px; 
+}
+
+.calendar-wrap input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-right: 10px;
+    padding: 6.5px;
+    background: #eee;
+    border: 1px solid #eee;
+    border-radius: 7px;
+    width: 70%; 
+    box-sizing: border-box;
+}
+
+.calendar-datetime input {
+    width: 100%;
+}
+
+.calendar-wrap label,
+.calendar-wrap span {
+    display: flex;
+    vertical-align: middle;
+} 
+
+table.table th{
+    padding: 10px 15px 5px 0px;
+    margin-bottom: 0;
+    font-size: 0.7rem;
+    color: #666;
+}
+
+tbody tr {
+    border-bottom: 1px solid #EEE;
+}
+    
+tbody td { 
+    margin-bottom: 10px; 
+}
+
+#list_reason{
+    white-space: pre-wrap;
+}
+
+input[type=radio] + label {
+    padding-left: 25px;
+    position: relative;
+    font-size: 0.8rem;
+    padding-top: 2px;
+    padding-right: 25px;
+}
+
+#deposite{
+    width:100px; 
+
+}
+ 
+ nav#sticky{
+     z-index: 5 !important;
+ }  

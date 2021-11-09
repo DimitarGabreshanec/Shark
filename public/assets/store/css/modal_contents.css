@@ -1,0 +1,131 @@
+.lock {
+	overflow: hidden;
+}
+#modal-target {
+	display: none;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.modal-content {
+	display: none;
+}
+.modal-overlay {
+	z-index: 99998;
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 120%;
+	background: rgba(0,0,0,.8);
+	
+}
+.modal-wrap {
+	z-index: 99999;
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 50%;
+	width: 90%;
+	height: 90%;
+	overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
+	background: #FFF;
+	box-sizing: border-box;
+	border-radius:7px;
+	max-width: 736px;
+	transform: translateX(-50%);
+	margin: 50px 0;
+	padding: 50px;
+	
+}
+p.no-cancel {
+	margin: 10px;
+	text-align: center;
+}
+p.no-cancel a{
+	font-size: 12px;
+	color: #333 !important;
+}
+.textarea h2 {
+	font-size: 1rem;
+	font-weight: bold;
+	margin: 10px 0;
+}
+@media only screen and (max-width:736px) {
+	.modal-wrap {
+	margin: 5%;
+		transform: translateX(0);
+		left: auto;
+		padding: 0;
+}
+.modal-open {
+	color: #00f;
+	text-decoration: none;
+}
+.modal-open:hover {
+	cursor: pointer;
+	color: #f00;
+}
+.modal-close{
+	font-size: 200%;
+}
+.modal-close:hover {
+	cursor: pointer;
+	color: #f00;
+}
+.modal-content > div{
+	max-width: 640px;
+	margin:15px;
+	position: relative;
+	box-sizing: border-box;
+}
+.modal-content > div img{
+	max-width:100%;
+}
+
+
+
+
+.modal-content  h3 { 
+	font-weight: bold;
+	font-size:24px;
+	color:#414042;
+	margin:0 auto;
+		max-width: 640px;
+		padding: 0 0 25px 0;
+		box-sizing: border-box;
+}
+.modal-content > div time{
+	color:#999;
+	font-size:14px;
+}
+.modal-content > div p {
+	font-size: 16px;
+	margin-bottom: 20px;
+	line-height: 170%;
+}
+@media only screen and (max-width:736px) {
+.modal-content h3 {
+		font-size:18px;
+	}
+.modal-content > div p {
+	font-size: 13px;
+}
+}
+p.closemodal a{
+	position: fixed;
+	top: 30px;
+	right: 40px;
+	font-size:30px;
+	background:#333;
+	color: #FFF;
+}
+
+@media only screen and (max-width:736px) {
+	p.closemodal {
+		top: 0;
+	right: 0;
+	}
+}

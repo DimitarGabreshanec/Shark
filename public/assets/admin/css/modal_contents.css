@@ -1,0 +1,229 @@
+.lock {
+    overflow:hidden;
+}
+
+#modal-target {
+  display: none;
+  position: relative;
+  width:100%;
+  height:100%;
+  background:#f2f2f2
+}
+.modal-content{
+	display:none;
+}
+
+.modal-overlay {
+    z-index: 9999998;
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,0.8);
+}
+.modal-overlay_calender {
+    z-index: 9999998;
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:120%;
+    background-color:rgba(0,0,0,0.8);
+}
+
+.modal-wrap {
+    z-index: 9999999;
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+	-webkit-overflow-scrolling: touch;
+}
+
+.modal-wrap_calender {
+    z-index: 9999999;
+    display:none;
+    position:fixed;
+    bottom: 0;
+    left:0;
+    width:100%;
+    height:100%;
+	overflow-x:hidden;
+	-webkit-overflow-scrolling: touch;
+}
+
+.modal-open {
+    color:#00f;
+    text-decoration:underline;
+}
+
+.modal_btn:hover {
+    cursor:pointer;
+}
+
+.modal-close {
+	position:fixed;
+	top: 20px;
+	right: 40px;
+	padding:20px !important;
+	transform: translate3d(0, 0, 0);
+	z-index:9999;
+  color: #fff;
+  font-size: 30px;
+}
+
+.modal-close_calender{
+  position:fixed;
+	bottom: 460px;
+	right: 20px;
+	padding:10px !important;
+	transform: translate3d(0, 0, 0);
+	z-index:9999;
+  color: #fff;
+  background: rgba(0,0,0, .5);
+  font-size: 30px;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  line-height: 20px;
+  display: block;
+}
+.modal-close img{
+	width:40px !important;
+}
+
+.modal-close:hover{
+  color: #fff!important;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.textarea{
+	background:#f2f2f2 !important;
+	max-width:800px;
+	margin:50px auto;
+	position:relative;
+	padding:50px;
+	box-sizing:border-box;
+}
+.modal-environment-wrap{
+	background:#fff !important;
+	width: 100%;
+  height: 100%;
+	position:relative;
+	box-sizing:border-box;
+}
+.textarea h2{
+	font-size:30px;
+	/* font-family: "Noto Sans Japanese", sans-serif; */
+	font-style:italic;
+	font-weight:bold;
+}
+.textarea h3{
+	font-size:20px;
+	/* font-family: "Noto Sans Japanese", sans-serif; */
+	border:none !important;
+	font-weight:bold;
+	margin:20px 0 10px 0;
+}
+
+.MDL_window_wrap {
+	max-width:auto;
+	position:absolute;
+	padding: 30px 35px;
+	box-sizing: border-box;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+	/* position: relative; */
+	background: #fff;
+	text-align: center;
+	width: 80%;
+	margin: 130px auto;
+	top: 50%;
+	left: 50%;
+  transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+#checksheet_tire .MDL_window_wrap {
+	top: 80% !important;
+}
+
+.MDL_window_wrap_calender{
+  max-width:auto;
+	position: fixed;
+	padding: 0 35px 0 35px;
+	box-sizing: border-box;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+	/* position: relative; */
+	/* background: #fff; */
+	text-align: center;
+	width: 95%;
+	margin: 0 auto;
+	bottom: -100%;
+	/* left: 50%; */
+  right: 0;
+  height: 400px;
+  /* transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, 0); */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.48); */
+}
+.MDL_window_wrap_calender.active{
+  width: 85%!important;
+}
+
+@media only screen and (max-width:736px) {
+	.textarea h2{
+	font-size:20px;
+	}
+	.textarea h3{
+	font-size:15px;
+	}
+	.textarea{
+	background:#FFF;
+	max-width:800px;
+	margin:20px 20px;
+	position:relative;
+	padding:5px;
+	box-sizing:border-box;
+}
+	.modal-close {
+	position:fixed;
+	top:0;
+	right:0;
+	padding:20px !important;
+	 transform: translate3d(0, 0, 0);
+}
+
+.MDL_window_wrap {
+	max-width:auto;
+	position:absolute;
+	padding: 30px 35px;
+	box-sizing: border-box;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+	/* position: relative; */
+	background: #fff;
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+	top: 50%;
+	left: 50%;
+  transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+.MDL_window_wrap_calender{
+  width: 100%;
+  padding: 10px;
+}
+
+}

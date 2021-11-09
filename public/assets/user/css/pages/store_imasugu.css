@@ -1,0 +1,15 @@
+ 
+ .gm-style-iw-t::after{
+    display: none;
+  }
+
+  .gm-style-iw-t::before{
+    margin-bottom: 0%;
+  }
+
+  #map2{
+    height: calc(100vh - 205px);
+  }
+  
+
+ 

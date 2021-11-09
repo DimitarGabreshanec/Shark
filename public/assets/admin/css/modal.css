@@ -1,0 +1,83 @@
+
+
+.MDL_window_wrap {
+	max-width:auto;
+	position:absolute;
+	padding: 30px 35px;
+	box-sizing: border-box;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+	/* position: relative; */
+	background: #fff;
+	text-align: center;
+	width: 80%;
+	margin: 30px auto;
+	top: 50%;
+	left: 50%;
+  transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+#overlay{
+	overflow: scroll;
+	display: none;
+	width: 100%;
+	height: 100vh;
+	text-align: left;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+  transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+	z-index: 1;
+	background: rgba(0, 0, 0, 0.57);
+}
+#close {
+	cursor: pointer;
+	margin: auto;
+	position:fixed;
+	top: 5%;
+	right: 5%;
+	/* top: 25%;
+	left: 75%; */
+  /* transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%); */
+	text-align: center;
+	transform: translate3d(0, 0, 0);
+	font-size: 50px;
+	color: #fff;
+	line-height: 1;
+	padding: 5px 8px;
+	font-weight: 100;
+	/* width: 18px; */
+	font-size: 30px;
+}
+#close span{
+	margin-top: 5px;
+	font-weight: normal;
+	font-size: 12px;
+	display: block;
+}
+#close img{
+	width:100%;
+}
+
+
+@media (max-width: 736px){
+	.MDL_window_wrap{
+		padding: 20px;
+		box-sizing: border-box;
+		width: 90%;
+		margin: 40px auto 60px;
+	}
+	#overlay{
+		overflow: scroll;
+	}
+	#close{
+		left: 80%;
+		background-color: rgba(0, 0, 0, 0.6);
+		padding: 3px 10px 5px 10px;
+	}
+}

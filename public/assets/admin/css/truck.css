@@ -1,0 +1,11 @@
+/*
+h1.logo {
+    height: auto;
+    padding: 18px 10px;
+}
+*/
+
+#vehicle_info_form {
+    overflow-y: auto;
+    height: 70vh;
+}

@@ -1,0 +1,137 @@
+.sub_img{
+    display: block !important
+}
+
+.avail_time, .post_time{
+    width: 60px;
+    display: inline-block;
+}
+
+.post_time_h{
+    width: 60px;
+    display: inline-block;
+    margin-left: -36px;
+}
+
+.avail_one{
+    width: 12px;
+    display: inline-block;
+}
+.available{
+    display: inline-block;
+}
+
+.post_date{
+    display: inline-block;
+    width: 130px; 
+}
+ 
+ 
+.calendar-wrap input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-right: 10px;
+    padding: 6.5px;
+    background: #eee;
+    border: 1px solid #eee;
+    border-radius: 7px;
+    width: 70%; 
+    box-sizing: border-box;
+}
+
+.calendar-datetime input {
+    width: 100%;
+}
+
+.calendar-wrap label,
+.calendar-wrap span {
+    display: flex;
+    vertical-align: middle;
+} 
+
+input[type=button]#clear2, input[type=button]#clear3{
+    display: block;
+    background: #333;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0 0 0;
+    padding: 5px;
+}
+
+input[type=file]{
+    display: none;
+} 
+
+#fileforbutton, #fileforbutton1{
+    background: #eee;
+    color: #333; 
+    border-radius: 5px;
+    border-color: #888;
+    margin: 10px 0 0 0;
+    padding: 5px;
+}
+
+.imagebox_main{
+    padding-top: 15px;
+}
+
+.imagebox_sub{
+    padding-top: 15px;
+}
+
+.imagebox_sub ul li {
+    width: 30%;
+    height: 130px;
+    margin-right: 5% !important;
+    margin-bottom: 6.5%;
+    float: left;
+    position: relative;
+}
+
+.imagebox_sub ul li img{ 
+    width: 100%;
+    height: 100%;
+}
+
+.imagebox_sub ul li:nth-child(3n) {
+    margin-right: 0 !important;
+}
+
+@media only screen and (max-width: 736px){
+    .imagebox_sub ul li {
+        width: 48%;
+        height: 130px;
+        margin-right: 4% !important;
+        margin-bottom: 15%;
+        float: left;
+        position: relative;
+    }  
+
+    .imagebox_sub ul li:nth-child(3n) {
+        margin-right: 4% !important;
+    }
+
+    .imagebox_sub ul li:nth-child(2n) {
+        margin-right: 0 !important;
+    }
+}
+
+input[type=radio] + label {
+    padding-left: 25px;
+    position: relative;
+    font-size: 0.8rem;
+    padding-top: 2px;
+    padding-right: 25px;
+}
+
+#deposite{
+    width:100px;
+    text-align:right; 
+
+}
+ 
+ nav#sticky{
+     z-index: 5 !important;
+ }
